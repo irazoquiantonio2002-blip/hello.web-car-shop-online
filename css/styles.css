@@ -435,7 +435,7 @@ section{ position:relative; }
   color:var(--blue); font-size:13px; font-weight:600;
 }
 
-.ambientes-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.ambientes-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:24px; }
 .amb-card{
   position:relative; border-radius:var(--radius); overflow:hidden; height:420px;
   border:1px solid var(--line);
