@@ -185,7 +185,7 @@
 
       const text = `Hola, soy ${name}.\nMe interesa: ${interest}.\nDetalle: ${msg}`;
 
-      window.open(`https://wa.me/520000000000?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+      window.open(`https://wa.me/523314618688?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
     });
   }
 })();
