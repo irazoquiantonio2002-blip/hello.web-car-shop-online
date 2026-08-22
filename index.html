@@ -32,22 +32,7 @@
   ══════════════════════════════════════════════════════ -->
   <div id="loader" aria-hidden="true">
     <div class="loader-bulb">
-      <svg viewBox="0 0 64 64" role="img">
-        <defs>
-          <linearGradient id="loaderLogoGrad" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0%" stop-color="#ff2f45"/>
-            <stop offset="100%" stop-color="#8f0d1c"/>
-          </linearGradient>
-        </defs>
-        <rect width="64" height="64" rx="16" fill="url(#loaderLogoGrad)"/>
-        <g fill="#ffffff">
-          <rect x="12" y="34" width="6" height="14" rx="2"/>
-          <rect x="21" y="26" width="6" height="22" rx="2"/>
-          <rect x="30" y="16" width="6" height="32" rx="2"/>
-          <rect x="39" y="24" width="6" height="24" rx="2"/>
-          <rect x="48" y="30" width="6" height="18" rx="2" fill="#7fe3ff"/>
-        </g>
-      </svg>
+      <img src="nuevas/logo.jpeg" alt="" class="loader-logo-img">
     </div>
     <div class="loader-bar"><div class="loader-bar-fill"></div></div>
     <span class="loader-text">Cargando...</span>
@@ -61,28 +46,7 @@
       <div class="nav-inner">
 
         <a href="#hero" class="nav-logo" aria-label="Car Shop Online — inicio">
-          <div class="nav-logo-icon" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img">
-              <defs>
-                <linearGradient id="navLogoGrad" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stop-color="#ff2f45"/>
-                  <stop offset="100%" stop-color="#8f0d1c"/>
-                </linearGradient>
-              </defs>
-              <rect width="64" height="64" rx="16" fill="url(#navLogoGrad)"/>
-              <g fill="#ffffff">
-                <rect x="12" y="34" width="6" height="14" rx="2"/>
-                <rect x="21" y="26" width="6" height="22" rx="2"/>
-                <rect x="30" y="16" width="6" height="32" rx="2"/>
-                <rect x="39" y="24" width="6" height="24" rx="2"/>
-                <rect x="48" y="30" width="6" height="18" rx="2" fill="#7fe3ff"/>
-              </g>
-            </svg>
-          </div>
-          <div class="nav-logo-copy">
-            <span>Car Shop</span>
-            <span>Online</span>
-          </div>
+          <img src="nuevas/logo.jpeg" alt="Car Shop Online" class="nav-logo-img">
         </a>
 
         <nav aria-label="Navegación principal">
@@ -242,7 +206,7 @@
               <i class="fa-solid fa-award"></i>
             </div>
             <h3>Marcas Reconocidas</h3>
-            <p>Stetsom, DD Audio, DC Audio, DS18, SounDigital, Rockford Fosgate, JL Audio y más, siempre originales y con garantía.</p>
+            <p>Stetsom, DD Audio, DC Audio, DS18, SounDigital, Rockford Fosgate, JL Audio, AutoTech, Limitless, XS Power, Valt Power Solutions y más, siempre originales y con garantía.</p>
           </div>
 
           <div class="f-card reveal d1">
@@ -368,6 +332,23 @@
             </div>
           </div>
 
+          <!-- Sistema Eléctrico -->
+          <div class="amb-card reveal d4">
+            <img class="amb-img"
+              src="sistema-electrico.jpeg"
+              alt="Alternador, baterías y célula de litio para sistemas de audio">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(227,18,45,0.15); border-color:rgba(255,47,69,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-car-battery" style="color:var(--red-2);"></i>
+              </div>
+              <h3>Sistema Eléctrico</h3>
+              <p>Tenemos todo para tu sistema eléctrico: alternadores, baterías y células de litio.</p>
+              <div class="amb-temp">Energía — Soporte Confiable</div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -398,12 +379,6 @@
             <div class="step-number">Paso 02</div>
             <h3>Cotización a Medida</h3>
             <p>Recibes una propuesta con marcas, especificaciones técnicas y precio transparente por WhatsApp.</p>
-          </div>
-
-          <div class="proceso-step reveal d2">
-            <div class="step-number">Paso 03</div>
-            <h3>Entrega & Seguimiento</h3>
-            <p>Coordinamos la entrega o instalación y damos seguimiento post-venta para que tu sistema rinda al máximo.</p>
           </div>
 
         </div>
@@ -482,8 +457,10 @@
           <!-- Visual -->
           <div class="reveal d2">
             <div class="panel-scene">
-              <div class="led-panel-body"
-                   role="img" aria-label="Amplificador de audio automotriz de alto rendimiento">
+              <div class="panel-wrap">
+                <img src="nuevas/potencia rms.jpeg"
+                     alt="Amplificador Sundown Audio SALT-3 de alto rendimiento"
+                     class="panel-img">
               </div>
               <div class="p-badge pb-tl" aria-hidden="true">
                 <div class="p-badge-dot"></div>

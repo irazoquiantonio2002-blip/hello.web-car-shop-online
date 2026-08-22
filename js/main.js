@@ -96,6 +96,9 @@
       { src: 'A56F5C9F01D2E77ECB1A1BCF71A5ED05.jpeg', alt: 'Rockford Fosgate' },
       { src: 'A591EEA18377AD6197E8992A31280FEB.jpeg', alt: 'Sundown Audio' },
       { src: 'A566D7D0F53ED4CB6E3257761BD7089C.jpeg', alt: 'XS Power Batteries' },
+      { src: 'nuevas/marcas (1).jpg', alt: 'XS Power' },
+      { src: 'nuevas/marcas (2).jpeg', alt: 'Limitless Lithium' },
+      { src: 'nuevas/marcas (1).jpeg', alt: 'Valt Power Solutions' },
     ];
     const buildItem = (b) => {
       const span = document.createElement('span');
