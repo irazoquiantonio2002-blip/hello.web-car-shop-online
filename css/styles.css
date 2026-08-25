@@ -386,6 +386,7 @@ section{ position:relative; }
 }
 .marquee-item:hover{ opacity:1; }
 .marquee-item img{ height:100%; width:auto; object-fit:contain; border-radius:6px; }
+.marquee-item-lg{ height:64px; }
 
 /* ==========================================================
    WHY — Features

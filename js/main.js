@@ -90,6 +90,7 @@
       { src: 'A53C28A513A654475B26D56E5EEE7658.jpeg', alt: 'DD Audio' },
       { src: 'A5422D0D4B198A52EB3C95D8258C1228.jpeg', alt: 'DS18 Digital Sound' },
       { src: 'A55171E29220B451D897AEF15072991B.jpeg', alt: 'Banda Audioparts' },
+      { src: 'nuevas/marcas (1).jpeg', alt: 'Valt Power Solutions', big: true },
       { src: 'A5562E641F471A681EF3906A0156CEBD.jpeg', alt: 'SounDigital' },
       { src: 'A55AE2C2B5D4B584B436EAE0884F075B.jpeg', alt: 'Deaf Bonce' },
       { src: 'A5FC6180710D7B437F5AA348BAAC1E15.jpeg', alt: 'JL Audio' },
@@ -98,11 +99,11 @@
       { src: 'A566D7D0F53ED4CB6E3257761BD7089C.jpeg', alt: 'XS Power Batteries' },
       { src: 'nuevas/marcas (1).jpg', alt: 'XS Power' },
       { src: 'nuevas/marcas (2).jpeg', alt: 'Limitless Lithium' },
-      { src: 'nuevas/marcas (1).jpeg', alt: 'Valt Power Solutions' },
+      { src: 'nuevas/marca nueva.jpeg', alt: 'Valt Power Solutions', big: true },
     ];
     const buildItem = (b) => {
       const span = document.createElement('span');
-      span.className = 'marquee-item';
+      span.className = b.big ? 'marquee-item marquee-item-lg' : 'marquee-item';
       const img = document.createElement('img');
       img.src = b.src;
       img.alt = b.alt;
