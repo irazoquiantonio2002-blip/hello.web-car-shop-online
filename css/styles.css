@@ -392,7 +392,7 @@ section{ position:relative; }
    ========================================================== */
 #why{ padding:120px 0 100px; background:var(--bg); }
 .why-header{
-  display:grid; grid-template-columns:1.3fr 1fr; gap:60px; align-items:end;
+  display:grid; grid-template-columns:1fr; gap:60px; align-items:end;
   margin-bottom:64px;
 }
 .why-quote{
