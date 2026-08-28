@@ -93,7 +93,6 @@
       { src: 'nuevas/marcas (1).jpeg', alt: 'Valt Power Solutions', big: true },
       { src: 'A5562E641F471A681EF3906A0156CEBD.jpeg', alt: 'SounDigital' },
       { src: 'A55AE2C2B5D4B584B436EAE0884F075B.jpeg', alt: 'Deaf Bonce' },
-      { src: 'A5FC6180710D7B437F5AA348BAAC1E15.jpeg', alt: 'JL Audio' },
       { src: 'A56F5C9F01D2E77ECB1A1BCF71A5ED05.jpeg', alt: 'Rockford Fosgate' },
       { src: 'A591EEA18377AD6197E8992A31280FEB.jpeg', alt: 'Sundown Audio' },
       { src: 'nuevas/marcas (2).jpeg', alt: 'Limitless Lithium' },
